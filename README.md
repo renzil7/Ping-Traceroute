@@ -20,13 +20,13 @@ MENU:<br>
 STEPS TO RUN THE CODE:<br>
 
 1. Open the python terminal/ command prompt as admin i.e. run as admin
-2. Type python(or python3) rd9012_ping.py -c/-i/-s/-t hostname
-   For example,
-   a. python rd9012_ping.py google.com 		This is the ping with default number of packets, to stop, use ctrl+c 
-   b. python rd9012_ping.py -c 2 google.com This will terminate after c packets have been sent
-   c. python rd9012_ping.py -i 3 google.com This is the ping with default number of packets, to stop, use ctrl+c
-   d. python rd9012_ping.py -s 3 google.com This is the ping with default number of packets, to stop, use ctrl+c
-   e. python rd9012_ping.py -t 3 google.com This will terminate after timeout, to stop before that, use ctrl+c
+2. Type python(or python3) rd9012_ping.py -c/-i/-s/-t hostname<br>
+   For example,<br>
+   a. python rd9012_ping.py google.com 		This is the ping with default number of packets, to stop, use ctrl+c <br>
+   b. python rd9012_ping.py -c 2 google.com This will terminate after c packets have been sent<br>
+   c. python rd9012_ping.py -i 3 google.com This is the ping with default number of packets, to stop, use ctrl+c<br>
+   d. python rd9012_ping.py -s 3 google.com This is the ping with default number of packets, to stop, use ctrl+c<br>
+   e. python rd9012_ping.py -t 3 google.com This will terminate after timeout, to stop before that, use ctrl+c<br>
    
 
 For rd9012_tarceroute.py<br>
@@ -40,9 +40,9 @@ MENU:<br>
 STEPS TO RUN THE CODE:<br>
 
 1. Open the python terminal/ command prompt as admin i.e. run as admin
-2. Type python(or python3) rd9012_traceroute.py -n/-q/-S hostname
-   For example,
-   a. python rd9012_traceroute.py google.com      This will terminate after path is printed (max of 30 hops)
-   b. python rd9012_traceroute.py -n google.com   This will terminate after path is printed (max of 30 hops)
-   c. python rd9012_traceroute.py -q 5 google.com This will terminate after path is printed (max of 30 hops)
-   d. python rd9012_traceroute.py -S google.com	  This will terminate after path is printed (max of 30 hops)
+2. Type python(or python3) rd9012_traceroute.py -n/-q/-S hostname<br>
+   For example,<br>
+   a. python rd9012_traceroute.py google.com      This will terminate after path is printed (max of 30 hops)<br>
+   b. python rd9012_traceroute.py -n google.com   This will terminate after path is printed (max of 30 hops)<br>
+   c. python rd9012_traceroute.py -q 5 google.com This will terminate after path is printed (max of 30 hops)<br>
+   d. python rd9012_traceroute.py -S google.com	  This will terminate after path is printed (max of 30 hops)<br>
