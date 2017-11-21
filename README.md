@@ -10,7 +10,7 @@ NOTE: This code requires root access.<br>
 	    This is beacuse the code uses raw socket<br>
 	
 For rd9012_ping.py<br>
-
+====================================================
 MENU:<br>
 -c count     	:Stop after sending (and receiving) count ECHO_RESPONSE packets. If this option is not specified ping will operate until interrupted.<br>
 -i wait      	:Wait wait seconds between sending each packet. The default is to wait for one second between each packet.<br>
@@ -30,7 +30,7 @@ STEPS TO RUN THE CODE:<br>
    
 
 For rd9012_tarceroute.py<br>
-
+=====================================================
 MENU:<br>
 -n          :Print hop addresses numerically rather than symbolically and numerically.<br>
 -q nqueries :Set the number of probes per ttl to nqueries.<br>
